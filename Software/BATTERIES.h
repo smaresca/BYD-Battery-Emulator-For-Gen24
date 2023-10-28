@@ -25,6 +25,10 @@
   #include "KIA-HYUNDAI-64-BATTERY.h" //See this file for more 64kWh battery settings
 #endif
 
+#ifdef LUNA2000
+  #include "LUNA2000-BATTERY.h"
+#endif
+
 #ifdef CHADEMO
 	#include "CHADEMO-BATTERY.h" //See this file for more Chademo settings
 #endif
