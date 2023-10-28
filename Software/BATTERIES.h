@@ -29,6 +29,10 @@
   #include "LUNA2000-BATTERY.h"
 #endif
 
+#ifdef LGRESU
+  #include "LGRESU-BATTERY.h"
+#endif
+
 #ifdef CHADEMO
 	#include "CHADEMO-BATTERY.h" //See this file for more Chademo settings
 #endif
