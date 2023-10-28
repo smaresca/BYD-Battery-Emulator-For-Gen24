@@ -21,8 +21,8 @@
   #include "MODBUS-BYD.h"
 #endif
 
-#ifdef MODBUS_LUNA2000
-  #include "MODBUS-LUNA2000.h"
+#ifdef HUWAWEI_SUN2000
+  #include "HUAWEI-SUN2000.h"
 #endif
 
 #endif
